@@ -1,0 +1,1134 @@
+*{
+    margin: 0;
+}
+
+html{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
+
+/*Start of Home Page*/
+nav{
+    width: 100%;
+    height: 60px;
+    top: 0;
+    position: fixed;
+    background-color: black;
+    z-index: 500;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.navlink{
+    float: right;
+    margin: 0 10px;
+    line-height:60px;
+    color: white;
+    text-decoration: none;
+    transition: .08s;
+    font-family: "Franklin Gothic Heavy";
+    font-style: italic;
+}
+
+.navlink:hover{
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+.companylogo{
+    width: 80px;
+    height: 60px;
+    box-sizing: border-box;
+    background-image: url("https://pbs.twimg.com/profile_images/1350206744044122112/YLACQslk_400x400.jpg");
+    background-size: 100% 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.splashscreen{
+    width: 100%;
+    height: 500px;
+    background-image: url("https://www.dodge.com/content/dam/fca-brands/na/dodge/en_us/incentives/2020-dodge-SEO-hero.jpg");
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.companydescription{
+    width: 530px;
+    height: 370px;
+    box-sizing: border-box;
+    background-color: black;
+    margin-top: 90px;
+    margin-bottom: 50px;
+    opacity: 93%;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    transform: skew(-10deg);
+    color: rgb(235,2,2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    border-style: inset;
+    border-color: white;
+}
+
+.companydescription:hover {
+    opacity: 0;
+    transition: .5s;
+}
+
+.tagline {
+    font-size: xxx-large;
+    margin-top: 80px;
+    font-family: "Franklin Gothic Heavy";
+}
+
+.tagline2 {
+    font-size: xx-large;
+    font-style: italic;
+    font-family: "Franklin Gothic Heavy";
+}
+
+.srtlogo{
+    width: 430px;
+    height: 70%;
+    background-image: url("https://dslv9ilpbe7p1.cloudfront.net/cUiIbb1KIs0IVZmuEX5eHg_store_logo_image.png");
+    background-size: 100% 100%;
+}
+
+.information{
+    width: 99.1%;
+    height: 690px;
+    background-color: black;
+    background-image: url("https://img5.goodfon.com/wallpaper/nbig/9/e6/sergey-poltavskiy-by-sergey-poltavskiy-mashina-car-render--8.jpg");
+    background-size: 100% 100%;
+    border: solid;
+    border-color: white;
+    border-width: 7px;
+    border-style: inset;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    z-index: -100;
+}
+
+.companyinfo{
+    width: 500px;
+    height: 500px;
+    background-color: black;
+    border-left-style: double;
+    border-right-style: double;
+    border-top-style: double;
+    border-radius: 15px;
+    border-color: rgb(235,2,2);
+    opacity: 75%;
+    border-width: 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.horrace{
+    color: rgb(235,2,2);
+    text-align: center;
+    padding-top: 40px;
+    font-family: "Franklin Gothic Heavy";
+    font-style: italic;
+}
+
+.john{
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-family: "Franklin Gothic Heavy";
+    font-size: larger;
+}
+
+.companyimage{
+    width: 335px;
+    height: 265px;
+}
+
+.productinfo{
+    width: 500px;
+    height: 500px;
+    background-color: black;
+    border-left-style: double;
+    border-right-style: double;
+    border-top-style: double;
+    border-radius: 15px;
+    border-color: rgb(235,2,2);
+    opacity: 75%;
+    border-width: 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.detroit{
+    color: rgb(235,2,2);
+    text-align: center;
+    padding-top: 40px;
+    font-family: "Franklin Gothic Heavy";
+    font-style: italic;
+}
+
+.michigan{
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-family: "Franklin Gothic Heavy";
+    font-size: large;
+}
+
+.productimage{
+    width: 300px;
+    height: 350px;
+}
+
+@media screen and (max-width: 1100px){
+    .information{
+        width: 97.3%;
+        height: 1300px;
+        background-color: black;
+        border: solid;
+        border-color: white;
+        border-width: 7px;
+        border-style: inset;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .companydescription{
+        width: 390px;
+        height: 370px;
+        box-sizing: border-box;
+        background-color: black;
+        margin-top: 107px;
+        margin-bottom: 50px;
+        opacity: 93%;
+        border-top-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+        transform: skew(-10deg);
+        color: rgb(235,2,2);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: absolute;
+        border-style: inset;
+        border-color: white;
+    }
+
+    .tagline {
+        font-size: xx-large;
+        margin-top: 80px;
+        font-family: "Franklin Gothic Heavy";
+    }
+
+    .tagline2 {
+        font-size: x-large;
+        font-style: italic;
+        font-family: "Franklin Gothic Heavy";
+    }
+
+    .srtlogo{
+        width: 320px;
+        height: 70%;
+        background-image: url("https://dslv9ilpbe7p1.cloudfront.net/cUiIbb1KIs0IVZmuEX5eHg_store_logo_image.png");
+        background-size: 100% 100%;
+    }
+
+    .companyinfo{
+        width: 420px;
+        height: 500px;
+        background-color: black;
+        border-left-style: double;
+        border-right-style: double;
+        border-top-style: double;
+        border-radius: 15px;
+        border-color: rgb(235,2,2);
+        border-width: 7px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .productinfo{
+        width: 420px;
+        height: 600px;
+        background-color: black;
+        border-left-style: double;
+        border-right-style: double;
+        border-top-style: double;
+        border-radius: 15px;
+        border-color: rgb(235,2,2);
+        border-width: 7px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu {
+        position: fixed;
+        top: 60px;
+        right:-160px;
+        width: 140px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        color: white;
+        background-color: rgb(235,2,2);
+        min-height: 150px;
+        border: solid;
+        border-color: black;
+        transition: 0.125s;
+        z-index: 1500;
+        font-style: italic;
+        font-family: "Franklin Gothic Heavy";
+    }
+
+    .bar {
+        height: 6px;
+        width: 80%;
+        background-color: white;
+        border-radius: 15px;
+    }
+
+    .menuIcon {
+        height: 60px;
+        width: 60px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        position: absolute;
+        right: 0;
+        top: 0;
+        cursor: pointer;
+    }
+
+    a{
+        color: white;
+        text-decoration: none;
+    }
+
+    a:hover{
+        text-decoration: underline;
+        font-size: 20px;
+    }
+
+    .navlink{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    .navlink {
+        float: right;
+        margin: 0 10px;
+        line-height: 60px;
+        color: white;
+        text-decoration: none;
+        transition: .08s;
+        font-family: "Franklin Gothic Heavy";
+        font-style: italic;
+    }
+
+    .navlink:hover {
+        text-decoration: underline;
+        font-size: 20px;
+    }
+}
+
+footer{
+    width: 100%;
+    height: 75px;
+    background-color: rgb(235,2,2);
+    display: flex;
+    position: center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    box-sizing: border-box;
+    padding-bottom: 10px;
+}
+
+.copyright{
+    color: white;
+    font-family: "Franklin Gothic Heavy";
+    font-size: x-large;
+    padding-top: 5px;
+}
+
+.help{
+    color: white;
+    font-family: "Franklin Gothic Heavy";
+    padding-top: 5px;
+}
+
+.contacthelp{
+    position: absolute;
+    font-size: small;
+    padding-top: 4px;
+    padding-left: 10px;
+    color: black;
+    text-decoration: none;
+    transition: .08s;
+    font-family: "Franklin Gothic Heavy";
+    font-style: italic;
+    font-size: large;
+}
+
+.contacthelp:hover{
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+/*Start of About Page*/
+.aboutbox{
+    width: 99.1%;
+    height: 1500px;
+    margin-top: 42px;
+    background-image: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/2021-dodge-challenger-srt-hellcat-109-1593640224.jpg");
+    background-size: 105% 100%;
+    border: solid;
+    border-color: white;
+    border-width: 7px;
+    border-style: inset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hellcat{
+    width: 650px;
+    height: 1430px;
+    background-color: black;
+    border-left-style: double;
+    border-right-style: double;
+    border-top-style: double;
+    border-color: rgb(235,2,2);
+    border-width: 7px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.title{
+    color: rgb(235,2,2);
+    font-size: xxx-large;
+    text-align: center;
+    margin-top: 10px;
+    font-family: "Franklin Gothic Heavy";
+    font-style: italic;
+}
+
+.paragraph{
+    margin-left: 14px;
+    margin-right: 14px;
+    font-size: medium;
+    font-family: "Franklin Gothic Heavy";
+    color: white;
+    text-align: justify;
+}
+
+.brothers{
+    width: 365px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.caption{
+    color: white;
+    font-family: "Franklin Gothic Heavy";
+    font-size: 14px;
+}
+
+.caption1{
+    color: transparent;
+    font-family: "Franklin Gothic Heavy";
+    font-size: 14px;
+}
+
+.demon{
+    width: 380px;
+    height: 300px;
+    border-radius: 15px;
+}
+
+@media screen and (max-width: 1100px){
+    .aboutbox{
+        width: 97.1%;
+        height: 1700px;
+        margin-top: 42px;
+        background-image: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/2021-dodge-challenger-srt-hellcat-109-1593640224.jpg");
+        background-size: 105% 100%;
+        border: solid;
+        border-style: inset;
+        border-color: white;
+        border-width: 7px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hellcat{
+        width: 650px;
+        height: 1650px;
+        background-color: black;
+        border-left-style: double;
+        border-right-style: double;
+        border-top-style: double;
+        border-color: rgb(235,2,2);
+        border-width: 7px;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 15px;
+    }
+}
+
+/*Start of Products Page*/
+.productspage{
+    width: 99.1%;
+    height: 600px;
+    background-color: black;
+    margin-top: 42px;
+    border: inset;
+    border-color: white;
+    border-width: 7px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.productbox{
+    width: 340px;
+    height: 450px;
+    background-color: black;
+    border-left-style: double;
+    border-right-style: double;
+    border-top-style: double;
+    border-color: rgb(235,2,2);
+    border-width: 7px;
+    border-radius: 15px;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.productshow{
+    width: 310px;
+    height: 170px;
+    border-radius: 12px;
+}
+
+.productshow2{
+    width: 310px;
+    height: 170px;
+    border-radius: 12px;
+}
+
+.cars{
+    color: rgb(235,2,2);
+    font-family: "Franklin Gothic Heavy";
+    font-style: italic;
+    font-size: large;
+    text-align: center;
+}
+.cardescription{
+    color: white;
+    font-family: "Franklin Gothic Heavy";
+    font-size: medium;
+    text-align: center;
+    margin: 2px;
+}
+
+.carbox{
+    width: 140px;
+    height: 40px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.carbox2{
+    width: 140px;
+    height: 40px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.carbox3{
+    width: 140px;
+    height: 40px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.carbox4{
+    width: 140px;
+    height: 40px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.buy{
+    color: rgb(235,2,2);
+    font-family: "Franklin Gothic Heavy";
+    font-size: x-large;
+    font-style: italic;
+    text-align: center;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.chargerbox {
+    position: fixed;
+    top: 90px;
+    left: -1000px;
+    width: 670px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+    border-left-style: double;
+    border-right-style: double;
+    border-top-style: double;
+    border-color: rgb(235,2,2);
+    border-width: 7px;
+    border-radius: 15px;
+    transition: 0.05s;
+}
+
+.challengerbox {
+    position: fixed;
+    top: 90px;
+    left: -1000px;
+    width: 670px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+    border-left-style: double;
+    border-right-style: double;
+    border-top-style: double;
+    border-color: rgb(235,2,2);
+    border-width: 7px;
+    border-radius: 15px;
+    transition: 0.05s;
+}
+
+.durangobox {
+    position: fixed;
+    top: 90px;
+    right: -1000px;
+    width: 670px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+    border-left-style: double;
+    border-right-style: double;
+    border-top-style: double;
+    border-color: rgb(235,2,2);
+    border-width: 7px;
+    border-radius: 15px;
+    transition: 0.05s;
+}
+
+.trxbox {
+    position: fixed;
+    top: 90px;
+    right: -1000px;
+    width: 670px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+    border-left-style: double;
+    border-right-style: double;
+    border-top-style: double;
+    border-color: rgb(235,2,2);
+    border-width: 7px;
+    border-radius: 15px;
+    transition: 0.05s;
+}
+
+.horsepower{
+    color: rgb(235,2,2);
+    font-family: "Franklin Gothic Heavy";
+    font-size: xx-large;
+    font-style: italic;
+    text-align: center;
+}
+
+.torque{
+    width: 650px;
+    height: 170px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.lb-ft{
+    color: white;
+    font-family: "Franklin Gothic Heavy";
+    font-size: medium;
+    text-align: center;
+}
+
+.lb-fts{
+    color: rgb(235,2,2);
+    font-family: "Franklin Gothic Heavy";
+    font-size: large;
+    text-align: center;
+    font-style: italic;
+}
+
+.carboxtool{
+    width: 120px;
+    height: 40px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+.carboxtool2{
+    width: 120px;
+    height: 40px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+.carboxtool3{
+    width: 120px;
+    height: 40px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+.carboxtool4{
+    width: 120px;
+    height: 40px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+.top{
+    color: rgb(235,2,2);
+    font-family: "Franklin Gothic Heavy";
+    font-size: x-large;
+    font-style: italic;
+    text-align: center;
+    margin-top: 5px;
+    text-decoration: none;
+}
+
+.speed{
+    width: 120px;
+    height: 40px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    transition: .08s;
+    margin: 0 10px;
+}
+
+.top:hover{
+    text-decoration: underline;
+    font-size: 25px;
+}
+
+@media screen and (max-width: 800px){
+    .productspage{
+        width: 97.3%;
+        height: 2000px;
+        background-color: black;
+        margin-top: 42px;
+        border: inset;
+        border-color: white;
+        border-width: 7px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .chargerbox {
+        position: fixed;
+        top: 90px;
+        left: -1000px;
+        width: 400px;
+        height: 600px;
+        display: flex;
+        margin-left: -382px;
+        margin-top: -20px;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: black;
+        border-left-style: double;
+        border-right-style: double;
+        border-top-style: double;
+        border-color: rgb(235,2,2);
+        border-width: 7px;
+        border-radius: 15px;
+        transition: 0.05s;
+    }
+
+    .challengerbox {
+        position: fixed;
+        top: 90px;
+        left: -1000px;
+        width: 400px;
+        height: 600px;
+        display: flex;
+        margin-left: -382px;
+        margin-top: -20px;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: black;
+        border-left-style: double;
+        border-right-style: double;
+        border-top-style: double;
+        border-color: rgb(235,2,2);
+        border-width: 7px;
+        border-radius: 15px;
+        transition: 0.05s;
+    }
+
+    .durangobox {
+        position: fixed;
+        top: 90px;
+        right: -1000px;
+        width: 400px;
+        height: 600px;
+        display: flex;
+        margin-right: -382px;
+        margin-top: -20px;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: black;
+        border-left-style: double;
+        border-right-style: double;
+        border-top-style: double;
+        border-color: rgb(235,2,2);
+        border-width: 7px;
+        border-radius: 15px;
+        transition: 0.05s;
+    }
+
+    .trxbox {
+        position: fixed;
+        top: 90px;
+        right: -1000px;
+        width: 400px;
+        height: 600px;
+        display: flex;
+        margin-right: -382px;
+        margin-top: -20px;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: black;
+        border-left-style: double;
+        border-right-style: double;
+        border-top-style: double;
+        border-color: rgb(235,2,2);
+        border-width: 7px;
+        border-radius: 15px;
+        transition: 0.05s;
+    }
+
+    .productshow2{
+        display: none;
+    }
+}
+
+/*Start of Contact Page*/
+.contactbox{
+    width: 99.1%;
+    height: 800px;
+    margin-top: 42px;
+    background-image: url("https://wallpaperaccess.com/full/1308942.png");
+    background-size: 100% 100%;
+    border-color: white;
+    border-style: inset;
+    border-width: 7px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.durango{
+    width: 650px;
+    height: 750px;
+    background-color: black;
+    border-left-style: double;
+    border-right-style: double;
+    border-top-style: double;
+    border-color: rgb(235,2,2);
+    border-width: 7px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ram{
+    width: 650px;
+    height: 750px;
+    background-color: black;
+    border-left-style: double;
+    border-right-style: double;
+    border-top-style: double;
+    border-color: rgb(235,2,2);
+    border-width: 7px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.widebody{
+    color: rgb(235,2,2);
+    font-family: "Franklin Gothic Heavy";
+    font-style: italic;
+}
+
+.firstname{
+    width: 550px;
+    height: 50px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.lastname{
+    width: 550px;
+    height: 350px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.trx{
+    font-size: large;
+    margin-top: 15px;
+    margin-left: 10px;
+    color: rgb(235,2,2);
+    font-family: "Franklin Gothic Heavy";
+    font-style: italic;
+}
+
+.phonepic{
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+}
+
+.contactusinfo{
+    color: white;
+    font-size: x-large;
+    float: right;
+    margin-top: 25px;
+    margin-left: 10px;
+    font-family: "Franklin Gothic Heavy";
+}
+
+.emailpic{
+    width: 70px;
+    height: 70px;
+}
+
+.link{
+    color: white;
+    font-size: x-large;
+    float: right;
+    margin-top: 25px;
+    margin-left: 10px;
+    font-family: "Franklin Gothic Heavy";
+    text-decoration: none;
+    transition: .08s;
+}
+
+.link:hover{
+    text-decoration: underline;
+    font-size: 25px;
+}
+
+.youtubepic{
+    width: 85px;
+    height: 70px;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 1100px){
+    .contactbox{
+        width: 97.2%;
+        height: 1450px;
+        margin-top: 42px;
+        background-image: url("https://wallpaperaccess.com/full/1308942.png");
+        background-size: 100% 100%;
+        border-color: white;
+        border-style: inset;
+        border-width: 7px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .durango{
+        width: 450px;
+        height: 650px;
+        background-color: black;
+        border-left-style: double;
+        border-right-style: double;
+        border-top-style: double;
+        border-color: rgb(235,2,2);
+        border-width: 7px;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .ram{
+        width: 450px;
+        height: 700px;
+        background-color: black;
+        border-left-style: double;
+        border-right-style: double;
+        border-top-style: double;
+        border-color: rgb(235,2,2);
+        border-width: 7px;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .widebody{
+        color: rgb(235,2,2);
+        font-family: "Franklin Gothic Heavy";
+        font-style: italic;
+    }
+
+    .firstname{
+        width: 350px;
+        height: 50px;
+        background-color: white;
+        border-radius: 10px;
+    }
+
+    .lastname{
+        width: 350px;
+        height: 200px;
+        background-color: white;
+        border-radius: 10px;
+    }
+
+    .trx {
+        font-size: large;
+        margin-top: 15px;
+        margin-left: 10px;
+        color: rgb(235, 2, 2);
+        font-family: "Franklin Gothic Heavy";
+        font-style: italic;
+    }
+
+    .phonepic{
+        width: 70px;
+        height: 70px;
+        border-radius: 10px;
+    }
+
+    .contactusinfo{
+        color: white;
+        font-size: large;
+        float: right;
+        margin-top: 25px;
+        margin-left: 10px;
+        font-family: "Franklin Gothic Heavy";
+    }
+
+    .emailpic{
+        width: 70px;
+        height: 70px;
+    }
+
+    .link{
+        color: white;
+        font-size: large;
+        float: right;
+        margin-top: 25px;
+        margin-left: 10px;
+        font-family: "Franklin Gothic Heavy";
+        text-decoration: none;
+        transition: .08s;
+    }
+
+    .link:hover{
+        text-decoration: underline;
+        font-size: 20px;
+    }
+
+    .youtubepic{
+        width: 75px;
+        height: 60px;
+        border-radius: 10px;
+    }
+}
